@@ -10,17 +10,17 @@ shows rickroll in terminal, just like ascii.live/rick or ascii.live/can-you-hear
 
 ## windows
 
- - **powershell -c "curl.exe rvl-vovka.github.io/rr/hugewin | iex"** ― *shows huge rickroll with really good quality [require really good internet connection and fast terminal emulator]*
+ - **powershell -c "(iwr -useb rvl-vovka.github.io/rr/hugewin).content | iex"** ― *shows huge rickroll with really good quality [require really good internet connection and fast terminal emulator]*
    
- -  **powershell -c "curl.exe rvl-vovka.github.io/rr/midwin | iex"** ― *shows rickroll of normal size and normal quality [recommended for above average internet speed]*
+ -  **powershell -c "(iwr -useb rvl-vovka.github.io/rr/midwin).content | iex"** ― *shows rickroll of normal size and normal quality [recommended for above average internet speed]*
    
--   **powershell -c "curl.exe rvl-vovka.github.io/rr/midnobgwin | iex"** ― *shows rickroll of normal size and normal quality but without background [much faster than with background so it is recommended for slower internet and/or slow terminal emulator]*
+-   **powershell -c "(iwr -useb rvl-vovka.github.io/rr/midnobgwin).content | iex"** ― *shows rickroll of normal size and normal quality but without background [much faster than with background so it is recommended for slower internet and/or slow terminal emulator]*
    
--   **powershell -c "curl.exe rvl-vovka.github.io/rr/miniwin | iex"** ― *shows small rickroll (size of default cmd in windows) [recommended for windows]*
+-   **powershell -c "(iwr -useb rvl-vovka.github.io/rr/miniwin).content | iex"** ― *shows small rickroll (size of default cmd in windows) [recommended for windows]*
    
--   **powershell -c "curl.exe rvl-vovka.github.io/rr/mininobgwin | iex"** ― *shows small rickroll but without background [recommended for windows with slow internet]*
+-   **powershell -c "(iwr -useb rvl-vovka.github.io/rr/mininobgwin).content | iex"** ― *shows small rickroll but without background [recommended for windows with slow internet]*
    
-## linux
+## linux [in development, doesn't work]
 
  - **curl rvl-vovka.github.io/rr/hugelinux | sh** ― *shows huge rickroll with really good quality [require really good internet connection and fast terminal emulator]*
    
