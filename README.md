@@ -48,3 +48,7 @@ If you want to have local version that doesn't require internet connection you c
 All linux versions are **NOT** compatable with bash. you have to add "-e" ater each "echo" in the local script you downloaded for it to be compatable but it is not recommended because sh if faster and more supported.
 
 Some terminals (e.g. jackpal android terminal) don't support unicode characters by default (or maybe at all), I can't fix that.
+
+# To Do
+- Add full windows support (windows 7 and up)
+- Add bash support (use printf instead of echo)
