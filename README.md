@@ -39,6 +39,8 @@ I've tried to make it work as easy as just curl like parrot.live or ascii.live b
 # Other
 All windows versions of animation work with newer powershell and it is recommended to use newer versions if they are available because they are faster (replace powershell with pwsh).
 
+All windows versions of animation may not work on older powershell versions, espetially on powershell 1.0 that is pre-insatlled in windows 7. It is not testet yet.
+
 All windows versions should work on other operating systems as long as they have powershell installed.
 
 If you want to have local version that doesn't require internet connection you can download "index.html" file from folder that you want or put "> animation.txt" in the end instead of "| iex" or "| sh". Then rename file to for example OpenMe.ps1 (for windows versions) or OpenMe.sh (for linux versions) and run it locally anytime you want (if you used "> animation.txt" method file will be in start position folder of terminal, usually your home folder).
