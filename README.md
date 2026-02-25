@@ -4,9 +4,9 @@ shows rickroll in terminal, just like ascii.live/rick or ascii.live/can-you-hear
 # Usage:
 
 ## Global
--   **curl -L rvl-vovka.github.io/rr** ― *shows shortened help message that isn't a spoiler to what will happen when you run curl rvl-vovka.github.io/rr/mini or similar*
+-   **curl -sL rvl-vovka.github.io/rr** ― *shows shortened help message that isn't a spoiler to what will happen when you run curl rvl-vovka.github.io/rr/mini or similar*
    
--   **curl -L rvl-vovka.github.io/rr/info** ― *shows full usage*
+-   **curl -sL rvl-vovka.github.io/rr/info** ― *shows full usage*
 
 ## Windows
 
@@ -22,15 +22,15 @@ shows rickroll in terminal, just like ascii.live/rick or ascii.live/can-you-hear
    
 ## Linux
 
- - **curl -L rvl-vovka.github.io/rr/biglinux | sh** ― *shows huge rickroll with really good quality [requires really good internet connection or will take some time to load]*
+ - **curl -sL rvl-vovka.github.io/rr/biglinux | sh** ― *shows huge rickroll with really good quality [requires really good internet connection or will take some time to load]*
    
- -  **curl -L rvl-vovka.github.io/rr/midlinux | sh** ― *shows rickroll of normal size and normal quality [recommended for fullscreen]*
+ -  **curl -sL rvl-vovka.github.io/rr/midlinux | sh** ― *shows rickroll of normal size and normal quality [recommended for fullscreen]*
    
--   **curl -L rvl-vovka.github.io/rr/midnobglinux | sh** ― *shows rickroll of normal size and normal quality but without background [much faster than with background so it is recommended for slower internet and/or slow terminal emulator, e.g. termux, at this point -s is recommended because width of rickroll is less than width of curl downloading progress messages]*
+-   **curl -sL rvl-vovka.github.io/rr/midnobglinux | sh** ― *shows rickroll of normal size and normal quality but without background [much faster than with background so it is recommended for slower internet and/or slow terminal emulator, e.g. termux, at this point -s is recommended because width of rickroll is less than width of curl downloading progress messages]*
    
--   **curl -L rvl-vovka.github.io/rr/minilinux | sh** ― *shows small rickroll (size of default cmd in windows) [recommended for windowed mode]*
+-   **curl -sL rvl-vovka.github.io/rr/minilinux | sh** ― *shows small rickroll (size of default cmd in windows) [recommended for windowed mode]*
    
--   **curl -L rvl-vovka.github.io/rr/mininobglinux | sh** ― *shows small rickroll but without background [recommended for slow terminal emulators e.g. termux]*
+-   **curl -sL rvl-vovka.github.io/rr/mininobglinux | sh** ― *shows small rickroll but without background [recommended for slow terminal emulators e.g. termux]*
 
 # Implementation explanation
 I've tried to make it work as easy as just curl like parrot.live or ascii.live but it required paying for servers, so this is the closes I came up with: when you curl it you get code that is executed and creates an animation, it is also somewhat better because it doesn't need constant internet connection
