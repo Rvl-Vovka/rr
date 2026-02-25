@@ -6,7 +6,7 @@ shows rickroll in terminal, just like ascii.live/rick or ascii.live/can-you-hear
 ## Global
 -   **curl -sL rvl-vovka.github.io/rr** ― *shows shortened help message that isn't a spoiler to what will happen when you run curl rvl-vovka.github.io/rr/mini or similar*
    
--   **curl -sL rvl-vovka.github.io/rr/info** ― *shows this help message*
+-   **curl -sL rvl-vovka.github.io/rr/info** ― *shows full usage*
 
 ## Windows
 
