@@ -8,7 +8,7 @@ shows rickroll in terminal, just like ascii.live/rick or ascii.live/can-you-hear
    
 -   **curl -sL rvl-vovka.github.io/rr/info** ― *shows this help message*
 
-## windows
+## Windows
 
  - **powershell -c "(iwr -useb rvl-vovka.github.io/rr/bigwin).content | iex"** ― *shows big rickroll with really good quality [requires really good internet connection or will take some time to load]*
    
@@ -20,7 +20,7 @@ shows rickroll in terminal, just like ascii.live/rick or ascii.live/can-you-hear
    
 -   **powershell -c "(iwr -useb rvl-vovka.github.io/rr/mininobgwin).content | iex"** ― *shows small rickroll but without background [recommended for windows with slow internet]*
    
-## linux
+## Linux
 
  - **curl -sL rvl-vovka.github.io/rr/biglinux | sh** ― *shows huge rickroll with really good quality [requires really good internet connection or will take some time to load]*
    
