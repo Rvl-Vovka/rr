@@ -4,9 +4,9 @@ shows rickroll in terminal, just like ascii.live/rick or ascii.live/can-you-hear
 # Usage:
 
 ## Global
--   **curl rvl-vovka.github.io/rr** ― *shows shortened help message that isn't a spoiler to what will happen when you run curl rvl-vovka.github.io/rr/mini or similar*
+-   **curl -sL rvl-vovka.github.io/rr** ― *shows shortened help message that isn't a spoiler to what will happen when you run curl rvl-vovka.github.io/rr/mini or similar*
    
--   **curl rvl-vovka.github.io/rr/info** ― *shows this help message*
+-   **curl -sL rvl-vovka.github.io/rr/info** ― *shows this help message*
 
 ## windows
 
@@ -22,9 +22,9 @@ shows rickroll in terminal, just like ascii.live/rick or ascii.live/can-you-hear
    
 ## linux
 
- - **curl -L rvl-vovka.github.io/rr/biglinux | sh** ― *shows huge rickroll with really good quality [requires really good internet connection or will take some time to load]*
+ - **curl -sL rvl-vovka.github.io/rr/biglinux | sh** ― *shows huge rickroll with really good quality [requires really good internet connection or will take some time to load]*
    
- -  **curl -L rvl-vovka.github.io/rr/midlinux | sh** ― *shows rickroll of normal size and normal quality [recommended for fullscreen]*
+ -  **curl -sL rvl-vovka.github.io/rr/midlinux | sh** ― *shows rickroll of normal size and normal quality [recommended for fullscreen]*
    
 -   **curl -sL rvl-vovka.github.io/rr/midnobglinux | sh** ― *shows rickroll of normal size and normal quality but without background [much faster than with background so it is recommended for slower internet and/or slow terminal emulator, e.g. termux, at this point -s is recommended because width of rickroll is less than width of curl downloading progress messages]*
    
