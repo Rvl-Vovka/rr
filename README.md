@@ -39,16 +39,12 @@ I've tried to make it work as easy as just curl like parrot.live or ascii.live b
 # Other
 All windows versions of animation work with newer powershell and it is recommended to use newer versions if they are available because they are faster (replace powershell with pwsh).
 
-All windows versions of animation may not work on older powershell versions, espetially on powershell 1.0 that is pre-insatlled in windows 7. It is not testet yet.
+All windows versions of animation work starting from powershell 3.0, which was pre-insatlled in windows 8, I've tried to make it work in windows 7 but couldn't, it doesn't even have curl, but local version should work.
 
-All windows versions should work on other operating systems as long as they have powershell installed.
+All windows versions should work on other operating systems as long as they have powershell 3.0+ installed.
 
 If you want to have local version that doesn't require internet connection you can download "index.html" file from folder that you want or put "> animation.txt" in the end instead of "| iex" or "| sh". Then rename file to for example OpenMe.ps1 (for windows versions) or OpenMe.sh (for linux versions) and run it locally anytime you want (if you used "> animation.txt" method file will be in start position folder of terminal, usually your home folder).
 
-All linux versions are **NOT** compatable with bash. you have to add "-e" ater each "echo" in the local script you downloaded for it to be compatable but it is not recommended because sh if faster and more supported.
+All linux versions are compatable with both bash and sh but sh is recommended because it is much faster.
 
 Some terminals (e.g. jackpal android terminal) don't support unicode characters by default (or maybe at all), I can't fix that.
-
-# To Do
-- Add full windows support (windows 7 and up)
-- Add bash support (use printf instead of echo)
