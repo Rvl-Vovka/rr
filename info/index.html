@@ -20,7 +20,3 @@ Usage:
       curl -sL rvl-vovka.github.io/rr/midnobglinux | sh ― shows rickroll of normal size and normal quality but without background [much faster than with background so it is recommended for slower internet and/or slow terminal emulator, e.g. termux, at this point -s is recommended because width of rickroll is less than width of curl downloading progress messages]
       curl -sL rvl-vovka.github.io/rr/minilinux | sh ― shows small rickroll (size of default cmd in windows) [recommended for windowed mode]
       curl -sL rvl-vovka.github.io/rr/mininobglinux | sh ― shows small rickroll but without background [recommended for slow terminal emulators e.g. termux]
-
-   Implementation explanation:
-      I've tried to make it work as easy as just curl like parrot.live or ascii.live but it required paying for servers, so this is the closes I came up with: when you curl it you get code that is executed and creates an animation, it is also somewhat better because it doesn't need constant internet connection
-      Note: please don't trust everyone who recommends you to curl source code and execute it especially on windows. It could be a virus, you should always check what code you will execute by running command without "| iex" or "| sh" in the end to make sure it is not a virus
